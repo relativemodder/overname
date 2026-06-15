@@ -3,6 +3,8 @@ export type Theme =
   | 'ddos'
   | 'security'
   | 'linux'
+  | 'unix'
+  | 'geek'
   | 'hackintosh'
   | 'femboy'
   | 'vibecode'
