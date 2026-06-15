@@ -263,6 +263,7 @@
 
 <footer>
   <pre>overname v1.0  |  сделано с любовью к оверу  |  камчатка 2025-2026</pre>
+  <a class="github-link" href="https://github.com/relativemodder/overname" target="_blank" rel="noreferrer">{'>'} git clone https://github.com/relativemodder/overname</a>
 </footer>
 
 <style>
@@ -732,5 +733,21 @@
     color: var(--green-dim);
     opacity: 0.3;
     margin: 0;
+  }
+
+  .github-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 11px;
+    color: var(--green-dim);
+    opacity: 0.5;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .github-link:hover {
+    opacity: 1;
+    color: var(--green);
+    text-shadow: 0 0 8px var(--green-glow);
   }
 </style>
